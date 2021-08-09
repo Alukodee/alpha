@@ -191,3 +191,30 @@ input {
   border: 1px solid #e6eaee;
   /* font-size: 14px; */
 }
+.Testimonials {
+  text-align: center;
+  background-color: #fafafa;
+  padding: 50px 0 72px;
+}
+h5 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 50px;
+  width: 55%;
+  margin: 0 auto;
+}
+.topic {
+  padding: 20px;
+  color: purple;
+}
+.essay {
+  align-items: center;
+  width: 35%;
+  margin: 0 auto;
+  border: 1px solid grey;
+  padding: 24px;
+  text-align: center;
+}
+.testimony {
+  padding-bottom: 20px;
+}
