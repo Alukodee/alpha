@@ -1,0 +1,193 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+nav {
+  width: 85%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li:not(:last-of-type) {
+  margin-right: 48px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.signup-cta {
+  background-color: #94347a;
+  padding: 12px 24px;
+  color: white;
+  border-radius: 8px;
+}
+
+main {
+  padding-top: 84px;
+  /* margin-left: 100px; */
+  width: 100%;
+}
+
+.hero-section {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.hero-section img {
+  width: 100%;
+}
+
+#main-h1 {
+  font-size: 60px;
+  font-style: inherit;
+}
+.hero-section p {
+  font-size: 25px;
+}
+.paragraph {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.startinvesting {
+  background-color: #94347a;
+  padding: 12px 38px;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.why-AlphaMorgan {
+  background-color: #94347a;
+  color: white;
+  margin-top: 100px;
+  padding: 72px 0 54px;
+  text-align: center;
+}
+
+.why-heading {
+  padding-bottom: 24px;
+}
+
+.why-heading h3 {
+  font-size: 48px;
+  padding-top: 16px;
+}
+
+.reasonswhy {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 63%;
+  margin: 0 auto;
+  border-top: 1px solid #c85aab;
+  padding-top: 6.5em;
+  padding-bottom: 87px;
+  text-align: left;
+  place-items: center;
+  grid-gap: 24px;
+  font-size: 18px;
+}
+.getstarted {
+  background-color: #751d5d;
+  padding-top: 80px;
+  color: white;
+  width: 100%;
+  padding: 2em;
+  margin: 0 auto;
+}
+.getstartedwrapper {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center center;
+  margin: 0 auto;
+}
+.ready {
+  color: white;
+  font-size: 45px;
+}
+.invest a {
+  color: #94347a;
+  background-color: white;
+  padding: 16px 70px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.calculate-your-returns {
+  background-color: white;
+}
+.calculate {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 120px;
+}
+h4 {
+  font-size: 60px;
+  font-weight: 400;
+}
+.insert {
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  font-weight: 400;
+}
+.trend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+  margin: 0 auto;
+  border: 1px solid grey;
+  padding: 24px;
+  text-align: left;
+}
+
+.trend span {
+  background: #94347a;
+  color: white;
+  padding: 3px;
+  font-size: 10px;
+}
+
+.trendsetter {
+  padding-bottom: 8px;
+}
+.calculator {
+  width: 40%;
+  margin: 0 auto;
+  border: 1px solid grey;
+  padding: 24px;
+  margin: 50px auto 0;
+  text-align: left;
+}
+input {
+  width: 100%;
+  text-align: left;
+  color: #9aa0a9;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #e6eaee;
+  /* font-size: 14px; */
+}
